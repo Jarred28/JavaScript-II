@@ -86,6 +86,11 @@ console.log(emailAdd);
 
 // Problem 2
 
+let smallShirts = runners.filter(function(small) {
+    return small.shirt_size === "S";
+});
+
+console.log(smallShirts);
 
 
 // Problem 3
