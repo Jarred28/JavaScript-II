@@ -15,5 +15,17 @@
 
 <body>
 <h1>JS II - Check your work in the console!</h1>
+
+function sumNums(x, y, cb) {
+  // sumNums adds two numbers (x, y) and passes the result to the callback.
+  return cb(x + y);
+}
+
+sumNums(1,2, function(add) {
+  console.log(add);
+})
+
+
+
 </body>
 </html>
